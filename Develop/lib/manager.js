@@ -4,27 +4,27 @@ const Employee = require("./employee");
 
 class Manager extends Employee {
     constructor(name,id,email, officeNum){
-        this.name = name
-        this.id = id
-        this.email = email
+        this.name = name;
+        this.id = id;
+        this.email = email;
         this.officeNumber = officeNum
       
     }
 
     getName(){
-        return this.name
+        return this.name;
     }
     getId(){
-        return this.id
+        return this.id;
     }
     getEmail(){
-        return this.email
+        return this.email;
     }
     getOfficeNumber(){
-        return this.officeNum
+        return this.officeNum;
     }
     getRole() {
-        return "Manager"
+        return "Manager";
     }
 
 }
